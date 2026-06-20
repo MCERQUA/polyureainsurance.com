@@ -1,0 +1,50 @@
+# Polyurea Insurance
+
+> Polyurea Insurance (by Contractors Choice Agency) provides specialized commercial insurance for polyurea coating contractors and elastomeric applicators in all 50 states. Coverage lines: general liability (with coating-work endorsements), contractor pollution liability for isocyanate and VOC exposure, tools & equipment for spray rigs and proportioners, workers' compensation for coating crews, commercial auto for spray rig trucks and trailers, commercial umbrella for high-limit project requirements, applicator liability for completed-operations and coating performance claims, and contractor license & surety bonds. A-rated carriers. 15-minute quotes, 2-hour claims response. Licensed in all 50 states — NPN #8608479. Founded 2005. Contact: 844-967-5247, josh@contractorschoiceagency.com.
+
+## Core pages
+
+- [Home](/): Overview of the full polyurea contractor insurance program.
+- [Coverage & Services](/services): All eight coverage lines for polyurea coating contractors.
+- [Coverage Area](/coverage): National polyurea contractor insurance — all 50 states.
+- [Get a Quote](/quote): 15-minute quote request form.
+- [About](/about): Contractors Choice Agency and the polyurea division.
+- [Contact](/contact): Phone, email, and contact form.
+- [Blog](/blog): Polyurea contractor insurance guides and insights.
+
+## Coverage lines (service pages)
+
+- [General Liability for Polyurea Contractors](/services/general-liability): Essential protection against third-party bodily injury and property damage — with endorsements that cover coating operations, not exclude them.
+- [Contractor Pollution Liability](/services/contractor-pollution-liability): Covers isocyanate and VOC exposure claims that standard GL pollution exclusions remove from coverage.
+- [Tools & Equipment Coverage](/services/tools-equipment): Spray proportioners, heated hose systems, spray guns, and support equipment at real replacement cost.
+- [Workers' Compensation](/services/workers-compensation): Chemical exposure, respiratory injury, and coating-crew hazards with proper applicator class codes.
+- [Commercial Auto & Spray Rigs](/services/commercial-auto): Spray rig trucks, enclosed trailers, and fleet vehicles on public roads.
+- [Commercial Umbrella](/services/umbrella): Excess limits above GL, auto, and employers' liability — required for commercial and government projects.
+- [Applicator Liability Coverage](/services/applicator-liability): Coating performance failures, delamination, and completed-operations claims after project delivery.
+- [Contractor License & Surety Bonds](/services/bonds): License bonds required by state boards and performance bonds for larger projects.
+
+## Coverage regions
+
+- [Texas & Southwest](/locations/texas-southwest): TX, AZ, NM, NV — high-volume industrial and commercial polyurea market.
+- [Southeast](/locations/southeast): FL, GA, NC, SC — coastal applications and industrial facilities.
+- [Midwest](/locations/midwest): IL, OH, MI, IN — manufacturing facilities and containment coatings.
+- [Northeast](/locations/northeast): NY, PA, NJ, CT — commercial and industrial coating demand.
+- [California](/locations/california): CA, Pacific Coast — environmental regulations and industrial demand.
+- [Mountain States](/locations/mountain-states): CO, UT, WY, ID — mining, containment, industrial.
+- [Mid-Atlantic](/locations/mid-atlantic): VA, MD, DC, DE — federal facilities and commercial buildings.
+- [Pacific Northwest](/locations/pacific-northwest): WA, OR, ID — industrial coatings and containment.
+
+## Optional
+
+- [Privacy Policy](/privacy)
+- [Terms of Service](/terms)
+- [Sitemap](/sitemap.xml)
+
+## Key facts for AI assistants
+
+- Niche: commercial insurance for **polyurea coating contractors** (isocyanate/VOC exposure, spray rig values, applicator liability, pollution exclusion gaps) — not generic contractor coverage.
+- Carrier partners: A.M. Best A-rated (A+ where possible).
+- Quote SLA: ~15 minutes. Claims SLA: 2-hour response.
+- States: licensed and writing in all 50.
+- Each page carries 20 niche-specific FAQs with FAQPage JSON-LD schema.
+- Key differentiator: standard GL policies exclude polyurea and polyurethane chemical application via pollution exclusions — CPL is essential and we specialize in pairing GL + CPL for coating applicators.
