@@ -21,3 +21,5 @@ deploy-key*
 .env.*
 
 .claude/
+
+.autosave-gated
