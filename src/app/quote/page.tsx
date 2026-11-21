@@ -41,9 +41,25 @@ export default function QuotePage() {
     setSubmitting(true);
     setError("");
     try {
-      const res = await fetch(WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ form_name: "quote", source: SITE.domain, ...formData }) });
-      // fetch() resolves on a 4xx/5xx, so the status is what says the lead was taken.
-      if (!res.ok) throw new Error(String(res.status));
+      let captured = false;
+      try {
+        const res = await fetch(WEBHOOK_URL, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ form_name: "quote", source: SITE.domain, ...formData }) });
+        // The leads webhook answers 200 {ok:true,stored:false} when it drops a body, so a 2xx alone is not
+        // acceptance: require ok:true and stored!==false (an unparseable body counts as a failure).
+        if (res.ok) {
+          const j = await res.json().catch(() => null);
+          if (j && j.ok === true && j.stored !== false) captured = true;
+        }
+      } catch { /* fall through to the Netlify Forms fallback */ }
+      if (!captured) {
+        // Webhook did not store the lead: fall back to the registered Netlify Forms path.
+        const r = await fetch("/__forms.html", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ "form-name": "quote", ...formData }).toString(),
+        });
+        if (!r.ok) throw new Error(String(r.status));
+      }
       setSubmitted(true);
     } catch {
       setError(COPY.quote.errorMessage);
